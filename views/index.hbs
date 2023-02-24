@@ -2,10 +2,33 @@
 
   <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="Buffer Events | Elevating College Celebrations"
+    />
+    <meta
+      property="og:description"
+      content="Buffer Events specializes in organizing technical and non-technical college events, from Capture The Flag competitions to college fests. Our experienced event planners handle everything from sponsorships to logistics, delivering unforgettable experiences for students. Join us in celebrating the best of college life!"
+    />
+    <meta property="og:image" content="https://example.com/image.jpg" />
+<meta name="twitter:title" content="Buffer Events | Elevating College Celebrations">
+<meta name="twitter:description" content="Buffer Events specializes in organizing technical and non-technical college events, from Capture The Flag competitions to college fests. Our experienced event planners handle everything from sponsorships to logistics, delivering unforgettable experiences for students. Join us in celebrating the best of college life!">
+<meta name="twitter:image" content="img/logo.png">
+
     <title>Buffer Events - Celebrations, Reimagined</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
-    <meta content="" name="description" />
+    <meta
+      name="description"
+      content="Buffer Events specializes in organizing technical and non-technical college events, from Capture The Flag competitions to college fests. Our experienced event planners handle everything from sponsorships to logistics, delivering unforgettable experiences for students. Join us in celebrating the best of college life!"
+    />
+
+    <meta
+      name="keywords"
+      content="college events, technical events, non-technical events, event planning, event management, sponsorships, logistics, experienced event planners, unforgettable experiences, Capture The Flag competitions, college fests"
+    />
+    <meta name="author" content="Buffer Events" />
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon" />
@@ -58,10 +81,9 @@
           <ul class="nav-menu">
             <li class="menu-active"><a href="#intro">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#speakers">Speakers</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#venue">Venue</a></li>
-            <li><a href="#hotels">Hotels</a></li>
+            <li><a href="#speakers">Our Team</a></li>
+            <li><a href="#schedule">Our Events</a></li>
+            <li><a href="#venue">Upcoming Events</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -151,7 +173,7 @@
                 </div>
               </div>
             </div>
-             {{!-- <div class="col-lg-3 col-md-6">
+            {{! <div class="col-lg-3 col-md-6">
               <div class="speaker">
                 <img  width="150px"
                   src="img/speakers/9.jpg"
@@ -168,7 +190,7 @@
                   </div>
                 </div>
               </div>
-            </div> --}}
+            </div> }}
             <div class="col-lg-3 col-md-6">
               <div class="speaker">
                 <img
@@ -762,7 +784,6 @@
             class="venobox"
             data-gall="gallery-carousel"
           ><img src="img/gallery/5.jpg" alt="" /></a>
-          
 
         </div>
 
@@ -977,9 +998,9 @@
                       type="button"
                       class="btn"
                       data-toggle="modal"
-                      data-target="#buy-ticket-modal"
-                      data-ticket-type="standard-access"
-                    >Buy Now</button>
+                      data-target="#buy-ticket-modall"
+                      data-ticket-type="standard-accessll"
+                    >Registration starting soon...</button>
                   </div>
                 </div>
               </div>
@@ -1012,19 +1033,20 @@
                   </ul>
                   <hr />
                   <div class="text-center">
-                    <button
-                      type="button"
-                      class="btn"
-                      data-toggle="modal"
-                      data-target="#buy-ticket-modal"
-                      data-ticket-type="pro-access"
-                    >Buy Now</button>
+                    <a href="https://www.excelmec.org/workshops">
+                      <button
+                        type="button"
+                        class="btn"
+                        data-toggle="modalllllll"
+                        data-target="#buy-ticket-modalllll"
+                        data-ticket-type="pro-accessssss"
+                      >Buy Now</button></a>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Pro Tier -->
-            {{!-- <div class="col-lg-4">
+            {{! <div class="col-lg-4">
               <div class="card">
                 <div class="card-body">
                   <h5
@@ -1065,7 +1087,7 @@
 
                 </div>
               </div>
-            </div> --}}
+            </div> }}
           </div>
 
         </div>
@@ -1169,7 +1191,7 @@
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
+            {{!-- <form action="" method="post" role="form" class="contactForm">
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <input
@@ -1220,7 +1242,7 @@
                 <div class="validation"></div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </form> --}}
           </div>
 
         </div>
@@ -1236,12 +1258,15 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-lg-3 col-md-6 footer-info">
+            <div class="col-lg-6 col-md-6 footer-info">
               <img src="img/logo.png" alt="TheEvenet" />
-              <p>Buffer Events is a startup that specializes in organizing college events, both technical and non-technical, on a contract basis. From Capture The Flag (CTF) competitions to college fests.</p>
+              <p>Buffer Events is a startup that specializes in organizing
+                college events, both technical and non-technical, on a contract
+                basis. From Capture The Flag (CTF) competitions to college
+                fests.</p>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            {{! <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
@@ -1254,9 +1279,9 @@
                 <li><i class="fa fa-angle-right"></i>
                   <a href="#">Privacy policy</a></li>
               </ul>
-            </div>
+            </div> }}
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            {{! <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
@@ -1269,12 +1294,12 @@
                 <li><i class="fa fa-angle-right"></i>
                   <a href="#">Privacy policy</a></li>
               </ul>
-            </div>
+            </div> }}
 
-            <div class="col-lg-3 col-md-6 footer-contact">
+            <div class="col-lg-6 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-               
+
                 <strong>Phone:</strong>
                 +918089188971<br />
                 <strong>Email:</strong>
@@ -1282,15 +1307,16 @@
               </p>
 
               <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"><i
-                    class="fa fa-instagram"
-                  ></i></a>
-                <a href="#" class="google-plus"><i
+                {{! <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> }}
+                <a
+                  href="https://www.instagram.com/bufferevents/"
+                  class="instagram"
+                ><i class="fa fa-instagram"></i></a>
+                {{! <a href="#" class="google-plus"><i
                     class="fa fa-google-plus"
                   ></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> }}
               </div>
 
             </div>
@@ -1304,8 +1330,8 @@
           &copy; Copyright
           <strong>BUFF3R</strong>. All Rights Reserved
         </div>
-        
-    </footer><!-- #footer -->
+      </div>
+    </footer>
 
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
