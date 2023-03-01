@@ -1606,9 +1606,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 
-  #intro .intro-container {
+  /* #intro .intro-container {
     top: 70px;
-  }
+  } */
 
   #intro h1 {
     font-size: 34px;
